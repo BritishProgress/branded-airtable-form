@@ -3,11 +3,11 @@
 // Edit this file to update the event — do not edit index.html
 // ============================================================
 
-var EVENT_CONFIG = {
+var SITE_CONFIG = {
 
   // Event title — used in the page tab, meta description, and hero heading
-  EVENT_TITLE: 'Political Economy Retreat 2026',
-  EVENT_LOCATION: 'Ditchley Park, Oxfordshire',
+  HEADING: 'Fast Grants Programme',
+  SUBHEADING: 'Call for Proposals',
 
   // Form to display: 'tally' or 'airtable'
   // Note: the custom success message only works with Tally.
@@ -16,7 +16,7 @@ var EVENT_CONFIG = {
 
   FORM_URLS: {
     tally:    'https://tally.so/r/9qdrRE',
-    airtable: 'https://airtable.com/embed/appINLR4clVxEpwol/pagp17IkZUCQOuHgs/form'
+    airtable: 'https://airtable.com/embed/appINLR4clVxEpwol/paghaTBtFhRnV8NIW/form'
   },
 
     // Set to false to hide the form embed entirely (e.g. before registration opens)
@@ -29,32 +29,26 @@ var EVENT_CONFIG = {
   // The hero cycles through all three automatically
   // Available images: turbine.webp, pills.webp, plane.webp,
   //                   networking-outside.png, presentation.png, ditchley-park.png
-  EVENT_SCENES: [
+  SITE_SCENES: [
     {
-      leftImage:    './images/networking-outside.png',
-      leftImageAlt: 'Networking outside',
-      // leftImage:    './images/turbine-small.webp',
-      // leftImageAlt: 'Wind turbine',
+      leftImage:    './images/fast-grants.png',
+      leftImageAlt: 'Fast Grants',
       rightImage:   './images/turbine.webp',
       rightImageAlt: 'Wind turbine',
       bgColor:  '#0A4938',
       accent:   '#3a8d5d'
     },
     {
-      leftImage:    './images/presentation.png',
-      leftImageAlt: 'Conference presentation',
-      // leftImage:    './images/plane-small.webp',
-      // leftImageAlt: 'Aeroplane',
+      leftImage:    './images/fast-grants.png',
+      leftImageAlt: 'Fast Grants',
       rightImage:   './images/plane.webp',
       rightImageAlt: 'Aeroplane',
       bgColor:  '#083D77',
       accent:   '#298EF9'
     },
     {
-      leftImage:    './images/ditchley-park.png',
-      leftImageAlt: 'Ditchley Park',
-      // leftImage:    './images/pills-small.webp',
-      // leftImageAlt: 'Medicine',
+      leftImage:    './images/fast-grants.png',
+      leftImageAlt: 'Fast Grants',
       rightImage:   './images/pills.webp',
       rightImageAlt: 'Medicine',
       bgColor:  '#a62241',
